@@ -1,0 +1,229 @@
+{
+  "archivo": "pronosticos_prueba_h24.csv.gz",
+  "columnas": [
+    "unique_id",
+    "ds",
+    "modelo",
+    "y_hat"
+  ],
+  "filas_totales": 4438080,
+  "modelos_principales": 17,
+  "variantes_mensuales": 3,
+  "variante_local": 1,
+  "inicio": "2014-10-01 00:00:00",
+  "fin": "2014-12-31 23:00:00",
+  "sha256": "7ee65b68bdca4a630b2f3c0a79050d39a67401e8522b1379c5dba69f55b1d9e9",
+  "size_bytes": 42888526,
+  "modelos": [
+    {
+      "modelo": "Naive",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "7eb7ceaba5b20b1613e26045b5a0d2f7d65345dbb38700f6ace52172a4e8779d"
+    },
+    {
+      "modelo": "Seasonal Naive 168",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "32108d02ee81edf70a535caf5bee4bbd582fca62b007bb43c16120c77d784a92"
+    },
+    {
+      "modelo": "AutoETS",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "1dadd2279df4dcb9cc601ad120e6bca0aa27d45c4ca30a51127b2fab553ea3d8"
+    },
+    {
+      "modelo": "MLP",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "f31dfd27c6f25233bb821733e223d27391b7b6e70df09e89577d63340388f66a"
+    },
+    {
+      "modelo": "NLinear",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "ebb834a29f01c035ecc0ec6d1ffd473e1cfbdff1826093861b4cbc8eafdd0a79"
+    },
+    {
+      "modelo": "LSTM autorregresiva",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "e61494254674102602a87e6d7c4173685440f992e50cc1d4cabac85dc3b88c4b"
+    },
+    {
+      "modelo": "Seq2seq",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "08721b49e4f67c23606d32aebeea22fcf94e883ffa5030fc2f9875b21c9bb07b"
+    },
+    {
+      "modelo": "N-HiTS",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "2d44aec2c292a6d3b72314cd51936901633795b961f036ba1b086bf96995a4de"
+    },
+    {
+      "modelo": "TCN",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "28b4f30287aa2c9fb1afc0ee58de22ea8ec63dca7b4e139de23523d47d432522"
+    },
+    {
+      "modelo": "TFT",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "d7345bea7fc5cdbe3bc73e2c7759db0ed42b3da22a9a8eb6afceebed10ec3198"
+    },
+    {
+      "modelo": "DeepAR",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "57d650fc32b625315aa093f3ef56cc969758447a57c347c79534ca0d81220fab"
+    },
+    {
+      "modelo": "Chronos-Bolt Mini",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "9b78dec53782c5a0c44fd66c19cc5e55dcc2d80f9239404e5c6dfb351650569e"
+    },
+    {
+      "modelo": "Seasonal Naive 24",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "SeasonalNaive_L168_M3",
+      "source_sha256": "d9de6fd930d3efa8b27db42405768fe2dddeffe1568c1537abc409de3db7da97"
+    },
+    {
+      "modelo": "LightGBM",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "LightGBM_L168_M30",
+      "source_sha256": "c708715bfab33a564f261deeebef3cc8cdadba08077a63436e9ffb9f3084ceaf"
+    },
+    {
+      "modelo": "DLinear",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "DLinear_L168_M3",
+      "source_sha256": "a2888dd5b3c490fc589752c6702da1cc59e85dc5ac03dc91f968a96f66e29519"
+    },
+    {
+      "modelo": "LSTM multi-salida",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "LSTM_L168_M30",
+      "source_sha256": "9c088fb1b47ee7eb57bdff96d91701edc4903d52a67774c17d877c40aba03402"
+    },
+    {
+      "modelo": "PatchTST",
+      "tipo": "principal",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "PatchTST_L168_M3",
+      "source_sha256": "8f90a982c29ebc5df1dcc48b065c741da9eeaa8152b6fa5c75405e1818675e66"
+    },
+    {
+      "modelo": "DLinear (reentrenamiento mensual)",
+      "tipo": "reentrenamiento mensual",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "7b8df9a354f826d3536e951b5aa1293b729e1cbd0c9b297d91dd057502a7ded0"
+    },
+    {
+      "modelo": "PatchTST (reentrenamiento mensual)",
+      "tipo": "reentrenamiento mensual",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "72995aa8027da843a4b25cf7c18a8d92274e41b56e45ee48ad85f89e5ab05e24"
+    },
+    {
+      "modelo": "AutoETS (reentrenamiento mensual)",
+      "tipo": "reentrenamiento mensual",
+      "filas": 220800,
+      "clientes": 100,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "8f4a8f84a4d83ac61d95dd8e0a73657616d02422cd59ce614132c86899e77dfc"
+    },
+    {
+      "modelo": "DLinear local (10 clientes)",
+      "tipo": "local, 10 clientes",
+      "filas": 22080,
+      "clientes": 10,
+      "origenes": 92,
+      "H": 24,
+      "configuracion": "Configuración registrada en el notebook",
+      "source_sha256": "57d35cf6e3640ccf1ce442007d932d397536ae3520455704646ce81451096a6d"
+    }
+  ]
+}

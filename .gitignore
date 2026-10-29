@@ -1,3 +1,15 @@
-
 data/raw/
 data/processed/
+
+informe/
+output/
+
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+.env.*
+!.env.example
